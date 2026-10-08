@@ -1,0 +1,737 @@
+=== START ===
+JobID: 21461866
+Node:  gt0422
+Start: Mon Jul 20 22:04:38 CEST 2026
+CWD:   /users/kdm/jpy/SimMPI_test/spike-train-mc
+
+run_phase_diagram POST_AUDIT_2026-07
+/users/kdm/jpy/SimMPI_test/spike-train-mc
+SAVE_MODE = RAM_THEN_SAVE_V73
+START 20-Jul-2026 22:04:44 pwd=/users/kdm/jpy/SimMPI_test/spike-train-mc out_file=/users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_4p2_6/Gphase30x_betalin4p2to6_h3_phase.mat nb=10 ns=31 T=500 SLURM_JOB_ID=21461866
+GRID: beta_min=4.2 beta_max=6 beta_step=0.2 nb=10
+SNAPSHOT: do_snap=1 n_snap=10000 max_snaps=10
+--- ENTER ib=1/10 beta=4.2 ---
+ib=1/10 beta=4.2  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+xstats(min=0 max=12 mean=1) OK E=-391 acc=0.282 snaps=10
+ib=1/10 beta=4.2  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99555   delay std = 0.149056
+xstats(min=0 max=12 mean=1) OK E=-399 acc=0.288 snaps=10
+ib=1/10 beta=4.2  is=3/31 sdel=0.3 ... norm*
+mean delay = 4.99968   delay std = 0.300087
+OK E=-384 acc=0.283 snaps=10
+ib=1/10 beta=4.2  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99402   delay std = 0.450798
+OK E=-401 acc=0.270 snaps=10
+ib=1/10 beta=4.2  is=5/31 sdel=0.6 ... norm*
+mean delay = 4.99053   delay std = 0.600545
+OK E=-368 acc=0.267 snaps=10
+ib=1/10 beta=4.2  is=6/31 sdel=0.75 ... norm*
+mean delay = 4.96284   delay std = 0.750332
+OK E=-359 acc=0.283 snaps=10
+ib=1/10 beta=4.2  is=7/31 sdel=0.9 ... norm*
+mean delay = 4.97335   delay std = 0.899826
+OK E=-339 acc=0.267 snaps=10
+ib=1/10 beta=4.2  is=8/31 sdel=1.05 ... norm*
+mean delay = 5.00992   delay std = 1.05099
+OK E=-346 acc=0.282 snaps=10
+ib=1/10 beta=4.2  is=9/31 sdel=1.2 ... mean delay = 4.97412   delay std = 1.25089
+OK E=-353 acc=0.274 snaps=10
+ib=1/10 beta=4.2  is=10/31 sdel=1.35 ... mean delay = 5.01043   delay std = 1.4021
+OK E=-349 acc=0.272 snaps=10
+ib=1/10 beta=4.2  is=11/31 sdel=1.5 ... mean delay = 4.98796   delay std = 1.56685
+OK E=-346 acc=0.272 snaps=10
+ib=1/10 beta=4.2  is=12/31 sdel=1.65 ... mean delay = 4.98309   delay std = 1.66077
+OK E=-379 acc=0.283 snaps=10
+ib=1/10 beta=4.2  is=13/31 sdel=1.8 ... mean delay = 4.96102   delay std = 1.8629
+OK E=-339 acc=0.263 snaps=10
+ib=1/10 beta=4.2  is=14/31 sdel=1.95 ... mean delay = 5.04976   delay std = 1.96633
+OK E=-395 acc=0.273 snaps=10
+ib=1/10 beta=4.2  is=15/31 sdel=2.1 ... mean delay = 4.94336   delay std = 2.07161
+OK E=-424 acc=0.299 snaps=10
+ib=1/10 beta=4.2  is=16/31 sdel=2.25 ... mean delay = 4.94919   delay std = 2.24929
+OK E=-345 acc=0.298 snaps=10
+ib=1/10 beta=4.2  is=17/31 sdel=2.4 ... mean delay = 5.02469   delay std = 2.43693
+OK E=-367 acc=0.275 snaps=10
+ib=1/10 beta=4.2  is=18/31 sdel=2.55 ... mean delay = 4.97042   delay std = 2.59034
+OK E=-366 acc=0.277 snaps=10
+ib=1/10 beta=4.2  is=19/31 sdel=2.7 ... mean delay = 5.1173   delay std = 2.73069
+OK E=-368 acc=0.277 snaps=10
+ib=1/10 beta=4.2  is=20/31 sdel=2.85 ... mean delay = 4.94639   delay std = 2.81339
+OK E=-350 acc=0.260 snaps=10
+ib=1/10 beta=4.2  is=21/31 sdel=3 ... mean delay = 4.96786   delay std = 2.97539
+OK E=-376 acc=0.276 snaps=10
+ib=1/10 beta=4.2  is=22/31 sdel=3.15 ... mean delay = 4.94529   delay std = 3.07662
+OK E=-373 acc=0.256 snaps=10
+ib=1/10 beta=4.2  is=23/31 sdel=3.3 ... mean delay = 5.09837   delay std = 3.2886
+OK E=-360 acc=0.283 snaps=10
+ib=1/10 beta=4.2  is=24/31 sdel=3.45 ... mean delay = 5.16357   delay std = 3.5677
+OK E=-362 acc=0.282 snaps=10
+ib=1/10 beta=4.2  is=25/31 sdel=3.6 ... mean delay = 4.86495   delay std = 3.57726
+OK E=-367 acc=0.284 snaps=10
+ib=1/10 beta=4.2  is=26/31 sdel=3.75 ... mean delay = 5.0517   delay std = 3.77456
+OK E=-382 acc=0.270 snaps=10
+ib=1/10 beta=4.2  is=27/31 sdel=3.9 ... mean delay = 4.99023   delay std = 3.90521
+OK E=-390 acc=0.254 snaps=10
+ib=1/10 beta=4.2  is=28/31 sdel=4.05 ... mean delay = 5.02964   delay std = 4.09606
+OK E=-389 acc=0.271 snaps=10
+ib=1/10 beta=4.2  is=29/31 sdel=4.2 ... mean delay = 4.9756   delay std = 4.04229
+OK E=-387 acc=0.272 snaps=10
+ib=1/10 beta=4.2  is=30/31 sdel=4.35 ... mean delay = 4.9127   delay std = 4.15811
+OK E=-367 acc=0.255 snaps=10
+ib=1/10 beta=4.2  is=31/31 sdel=4.5 ... mean delay = 5.06265   delay std = 4.37805
+OK E=-356 acc=0.263 snaps=10
+--- finished beta index 1/10 ---
+--- ENTER ib=2/10 beta=4.4 ---
+ib=2/10 beta=4.4  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-402 acc=0.273 snaps=10
+ib=2/10 beta=4.4  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99755   delay std = 0.150789
+OK E=-404 acc=0.277 snaps=10
+ib=2/10 beta=4.4  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.0037   delay std = 0.299809
+OK E=-371 acc=0.271 snaps=10
+ib=2/10 beta=4.4  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99563   delay std = 0.449291
+OK E=-370 acc=0.264 snaps=10
+ib=2/10 beta=4.4  is=5/31 sdel=0.6 ... norm*
+mean delay = 5.00034   delay std = 0.599152
+OK E=-403 acc=0.266 snaps=10
+ib=2/10 beta=4.4  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.01202   delay std = 0.749751
+OK E=-381 acc=0.263 snaps=10
+ib=2/10 beta=4.4  is=7/31 sdel=0.9 ... norm*
+mean delay = 4.99637   delay std = 0.900051
+OK E=-344 acc=0.270 snaps=10
+ib=2/10 beta=4.4  is=8/31 sdel=1.05 ... mean delay = 5.0099   delay std = 1.08074
+OK E=-340 acc=0.262 snaps=10
+ib=2/10 beta=4.4  is=9/31 sdel=1.2 ... mean delay = 5.01561   delay std = 1.21532
+OK E=-386 acc=0.266 snaps=10
+ib=2/10 beta=4.4  is=10/31 sdel=1.35 ... mean delay = 4.98113   delay std = 1.34761
+OK E=-324 acc=0.263 snaps=10
+ib=2/10 beta=4.4  is=11/31 sdel=1.5 ... mean delay = 4.96975   delay std = 1.49444
+OK E=-330 acc=0.287 snaps=10
+ib=2/10 beta=4.4  is=12/31 sdel=1.65 ... mean delay = 5.00196   delay std = 1.66879
+OK E=-363 acc=0.279 snaps=10
+ib=2/10 beta=4.4  is=13/31 sdel=1.8 ... mean delay = 4.97997   delay std = 1.78922
+OK E=-395 acc=0.271 snaps=10
+ib=2/10 beta=4.4  is=14/31 sdel=1.95 ... mean delay = 5.00508   delay std = 1.98683
+OK E=-354 acc=0.262 snaps=10
+ib=2/10 beta=4.4  is=15/31 sdel=2.1 ... mean delay = 5.01203   delay std = 2.11455
+OK E=-360 acc=0.260 snaps=10
+ib=2/10 beta=4.4  is=16/31 sdel=2.25 ... mean delay = 5.09794   delay std = 2.29317
+OK E=-392 acc=0.268 snaps=10
+ib=2/10 beta=4.4  is=17/31 sdel=2.4 ... mean delay = 4.91784   delay std = 2.42418
+OK E=-374 acc=0.286 snaps=10
+ib=2/10 beta=4.4  is=18/31 sdel=2.55 ... mean delay = 5.05626   delay std = 2.55577
+OK E=-390 acc=0.267 snaps=10
+ib=2/10 beta=4.4  is=19/31 sdel=2.7 ... mean delay = 5.01621   delay std = 2.71925
+OK E=-371 acc=0.257 snaps=10
+ib=2/10 beta=4.4  is=20/31 sdel=2.85 ... mean delay = 4.95319   delay std = 2.84344
+OK E=-362 acc=0.270 snaps=10
+ib=2/10 beta=4.4  is=21/31 sdel=3 ... mean delay = 4.93013   delay std = 2.99759
+OK E=-384 acc=0.275 snaps=10
+ib=2/10 beta=4.4  is=22/31 sdel=3.15 ... mean delay = 4.96274   delay std = 3.13986
+OK E=-415 acc=0.272 snaps=10
+ib=2/10 beta=4.4  is=23/31 sdel=3.3 ... mean delay = 4.93406   delay std = 3.21868
+OK E=-345 acc=0.262 snaps=10
+ib=2/10 beta=4.4  is=24/31 sdel=3.45 ... mean delay = 4.89178   delay std = 3.43609
+OK E=-355 acc=0.269 snaps=10
+ib=2/10 beta=4.4  is=25/31 sdel=3.6 ... mean delay = 4.98774   delay std = 3.61977
+OK E=-336 acc=0.261 snaps=10
+ib=2/10 beta=4.4  is=26/31 sdel=3.75 ... mean delay = 4.90864   delay std = 3.69677
+OK E=-384 acc=0.254 snaps=10
+ib=2/10 beta=4.4  is=27/31 sdel=3.9 ... mean delay = 5.03573   delay std = 3.94978
+OK E=-361 acc=0.266 snaps=10
+ib=2/10 beta=4.4  is=28/31 sdel=4.05 ... mean delay = 5.15876   delay std = 3.96863
+OK E=-375 acc=0.271 snaps=10
+ib=2/10 beta=4.4  is=29/31 sdel=4.2 ... mean delay = 5.058   delay std = 4.16192
+OK E=-364 acc=0.257 snaps=10
+ib=2/10 beta=4.4  is=30/31 sdel=4.35 ... mean delay = 5.10931   delay std = 4.37431
+OK E=-354 acc=0.259 snaps=10
+ib=2/10 beta=4.4  is=31/31 sdel=4.5 ... EXCEPTION
+--- finished beta index 2/10 ---
+--- ENTER ib=3/10 beta=4.6 ---
+ib=3/10 beta=4.6  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-440 acc=0.279 snaps=10
+ib=3/10 beta=4.6  is=2/31 sdel=0.15 ... norm*
+mean delay = 5   delay std = 0.149046
+OK E=-395 acc=0.267 snaps=10
+ib=3/10 beta=4.6  is=3/31 sdel=0.3 ... norm*
+mean delay = 4.99015   delay std = 0.299963
+OK E=-401 acc=0.270 snaps=10
+ib=3/10 beta=4.6  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99176   delay std = 0.450809
+OK E=-379 acc=0.272 snaps=10
+ib=3/10 beta=4.6  is=5/31 sdel=0.6 ... norm*
+mean delay = 5.00335   delay std = 0.599264
+OK E=-348 acc=0.250 snaps=10
+ib=3/10 beta=4.6  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.00499   delay std = 0.749762
+OK E=-357 acc=0.244 snaps=10
+ib=3/10 beta=4.6  is=7/31 sdel=0.9 ... norm*
+mean delay = 4.97195   delay std = 0.899351
+OK E=-372 acc=0.252 snaps=10
+ib=3/10 beta=4.6  is=8/31 sdel=1.05 ... norm*
+mean delay = 4.99044   delay std = 1.04979
+OK E=-381 acc=0.290 snaps=10
+ib=3/10 beta=4.6  is=9/31 sdel=1.2 ... mean delay = 4.9949   delay std = 1.25754
+OK E=-351 acc=0.254 snaps=10
+ib=3/10 beta=4.6  is=10/31 sdel=1.35 ... mean delay = 5.02319   delay std = 1.36231
+OK E=-343 acc=0.265 snaps=10
+ib=3/10 beta=4.6  is=11/31 sdel=1.5 ... mean delay = 4.95316   delay std = 1.49947
+OK E=-386 acc=0.272 snaps=10
+ib=3/10 beta=4.6  is=12/31 sdel=1.65 ... mean delay = 4.98536   delay std = 1.66675
+OK E=-371 acc=0.264 snaps=10
+ib=3/10 beta=4.6  is=13/31 sdel=1.8 ... mean delay = 4.94167   delay std = 1.83764
+OK E=-361 acc=0.248 snaps=10
+ib=3/10 beta=4.6  is=14/31 sdel=1.95 ... mean delay = 4.99801   delay std = 1.958
+OK E=-372 acc=0.251 snaps=10
+ib=3/10 beta=4.6  is=15/31 sdel=2.1 ... mean delay = 5.02021   delay std = 2.09145
+OK E=-331 acc=0.258 snaps=10
+ib=3/10 beta=4.6  is=16/31 sdel=2.25 ... mean delay = 5.0392   delay std = 2.2843
+OK E=-386 acc=0.269 snaps=10
+ib=3/10 beta=4.6  is=17/31 sdel=2.4 ... mean delay = 5.05902   delay std = 2.37789
+OK E=-396 acc=0.251 snaps=10
+ib=3/10 beta=4.6  is=18/31 sdel=2.55 ... mean delay = 5.04426   delay std = 2.56112
+OK E=-345 acc=0.265 snaps=10
+ib=3/10 beta=4.6  is=19/31 sdel=2.7 ... mean delay = 5.08361   delay std = 2.73485
+OK E=-349 acc=0.252 snaps=10
+ib=3/10 beta=4.6  is=20/31 sdel=2.85 ... mean delay = 5.04744   delay std = 2.87689
+OK E=-393 acc=0.275 snaps=10
+ib=3/10 beta=4.6  is=21/31 sdel=3 ... mean delay = 5.01203   delay std = 2.964
+OK E=-354 acc=0.243 snaps=10
+ib=3/10 beta=4.6  is=22/31 sdel=3.15 ... mean delay = 4.95186   delay std = 3.14577
+OK E=-322 acc=0.247 snaps=10
+ib=3/10 beta=4.6  is=23/31 sdel=3.3 ... mean delay = 4.97808   delay std = 3.29349
+OK E=-347 acc=0.251 snaps=10
+ib=3/10 beta=4.6  is=24/31 sdel=3.45 ... mean delay = 5.05214   delay std = 3.46795
+OK E=-382 acc=0.253 snaps=10
+ib=3/10 beta=4.6  is=25/31 sdel=3.6 ... mean delay = 5.05453   delay std = 3.56872
+OK E=-346 acc=0.257 snaps=10
+ib=3/10 beta=4.6  is=26/31 sdel=3.75 ... mean delay = 5.02917   delay std = 3.79566
+OK E=-384 acc=0.256 snaps=10
+ib=3/10 beta=4.6  is=27/31 sdel=3.9 ... mean delay = 4.98076   delay std = 3.93839
+OK E=-384 acc=0.247 snaps=10
+ib=3/10 beta=4.6  is=28/31 sdel=4.05 ... mean delay = 5.00544   delay std = 4.0956
+OK E=-350 acc=0.256 snaps=10
+ib=3/10 beta=4.6  is=29/31 sdel=4.2 ... mean delay = 4.97165   delay std = 4.28223
+OK E=-343 acc=0.253 snaps=10
+ib=3/10 beta=4.6  is=30/31 sdel=4.35 ... mean delay = 5.11602   delay std = 4.43579
+OK E=-369 acc=0.245 snaps=10
+ib=3/10 beta=4.6  is=31/31 sdel=4.5 ... mean delay = 5.03331   delay std = 4.35101
+OK E=-359 acc=0.246 snaps=10
+--- finished beta index 3/10 ---
+--- ENTER ib=4/10 beta=4.8 ---
+ib=4/10 beta=4.8  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-401 acc=0.258 snaps=10
+ib=4/10 beta=4.8  is=2/31 sdel=0.15 ... norm*
+mean delay = 5.0037   delay std = 0.150024
+OK E=-380 acc=0.267 snaps=10
+ib=4/10 beta=4.8  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.00597   delay std = 0.299144
+OK E=-416 acc=0.251 snaps=10
+ib=4/10 beta=4.8  is=4/31 sdel=0.45 ... norm*
+mean delay = 5.00372   delay std = 0.449463
+OK E=-412 acc=0.258 snaps=10
+ib=4/10 beta=4.8  is=5/31 sdel=0.6 ... norm*
+mean delay = 4.98388   delay std = 0.600915
+OK E=-392 acc=0.263 snaps=10
+ib=4/10 beta=4.8  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.00399   delay std = 0.750364
+OK E=-373 acc=0.245 snaps=10
+ib=4/10 beta=4.8  is=7/31 sdel=0.9 ... norm*
+mean delay = 4.99164   delay std = 0.900467
+OK E=-351 acc=0.252 snaps=10
+ib=4/10 beta=4.8  is=8/31 sdel=1.05 ... norm*
+mean delay = 5.00132   delay std = 1.05011
+OK E=-368 acc=0.256 snaps=10
+ib=4/10 beta=4.8  is=9/31 sdel=1.2 ... mean delay = 5.02905   delay std = 1.22385
+OK E=-376 acc=0.244 snaps=10
+ib=4/10 beta=4.8  is=10/31 sdel=1.35 ... mean delay = 5.00561   delay std = 1.39245
+OK E=-366 acc=0.238 snaps=10
+ib=4/10 beta=4.8  is=11/31 sdel=1.5 ... mean delay = 5.02938   delay std = 1.52041
+OK E=-375 acc=0.253 snaps=10
+ib=4/10 beta=4.8  is=12/31 sdel=1.65 ... mean delay = 5.04077   delay std = 1.66709
+OK E=-356 acc=0.250 snaps=10
+ib=4/10 beta=4.8  is=13/31 sdel=1.8 ... mean delay = 5.02924   delay std = 1.81439
+OK E=-379 acc=0.251 snaps=10
+ib=4/10 beta=4.8  is=14/31 sdel=1.95 ... mean delay = 5.01594   delay std = 1.90987
+OK E=-348 acc=0.251 snaps=10
+ib=4/10 beta=4.8  is=15/31 sdel=2.1 ... mean delay = 5.04322   delay std = 2.14234
+OK E=-382 acc=0.256 snaps=10
+ib=4/10 beta=4.8  is=16/31 sdel=2.25 ... mean delay = 4.981   delay std = 2.27347
+OK E=-337 acc=0.252 snaps=10
+ib=4/10 beta=4.8  is=17/31 sdel=2.4 ... mean delay = 4.96701   delay std = 2.40543
+OK E=-344 acc=0.266 snaps=10
+ib=4/10 beta=4.8  is=18/31 sdel=2.55 ... mean delay = 5.02503   delay std = 2.57412
+OK E=-363 acc=0.255 snaps=10
+ib=4/10 beta=4.8  is=19/31 sdel=2.7 ... mean delay = 5.10632   delay std = 2.72182
+OK E=-347 acc=0.268 snaps=10
+ib=4/10 beta=4.8  is=20/31 sdel=2.85 ... mean delay = 4.97719   delay std = 2.81597
+OK E=-361 acc=0.245 snaps=10
+ib=4/10 beta=4.8  is=21/31 sdel=3 ... mean delay = 4.93602   delay std = 2.97331
+OK E=-354 acc=0.239 snaps=10
+ib=4/10 beta=4.8  is=22/31 sdel=3.15 ... mean delay = 5.03345   delay std = 3.14926
+OK E=-361 acc=0.238 snaps=10
+ib=4/10 beta=4.8  is=23/31 sdel=3.3 ... mean delay = 4.98609   delay std = 3.18795
+OK E=-365 acc=0.241 snaps=10
+ib=4/10 beta=4.8  is=24/31 sdel=3.45 ... mean delay = 5.05434   delay std = 3.45817
+OK E=-344 acc=0.243 snaps=10
+ib=4/10 beta=4.8  is=25/31 sdel=3.6 ... mean delay = 5.08841   delay std = 3.70981
+OK E=-347 acc=0.253 snaps=10
+ib=4/10 beta=4.8  is=26/31 sdel=3.75 ... mean delay = 5.10346   delay std = 3.71679
+OK E=-368 acc=0.262 snaps=10
+ib=4/10 beta=4.8  is=27/31 sdel=3.9 ... mean delay = 4.91915   delay std = 3.81192
+OK E=-363 acc=0.264 snaps=10
+ib=4/10 beta=4.8  is=28/31 sdel=4.05 ... mean delay = 5.02944   delay std = 3.97951
+OK E=-371 acc=0.255 snaps=10
+ib=4/10 beta=4.8  is=29/31 sdel=4.2 ... mean delay = 4.90358   delay std = 4.1767
+OK E=-344 acc=0.248 snaps=10
+ib=4/10 beta=4.8  is=30/31 sdel=4.35 ... mean delay = 5.06734   delay std = 4.38784
+OK E=-348 acc=0.237 snaps=10
+ib=4/10 beta=4.8  is=31/31 sdel=4.5 ... mean delay = 5.18857   delay std = 4.52347
+OK E=-342 acc=0.250 snaps=10
+--- finished beta index 4/10 ---
+--- ENTER ib=5/10 beta=5 ---
+ib=5/10 beta=5  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-387 acc=0.257 snaps=10
+ib=5/10 beta=5  is=2/31 sdel=0.15 ... norm*
+mean delay = 5.00066   delay std = 0.150029
+OK E=-406 acc=0.257 snaps=10
+ib=5/10 beta=5  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.00444   delay std = 0.299773
+OK E=-395 acc=0.248 snaps=10
+ib=5/10 beta=5  is=4/31 sdel=0.45 ... norm*
+mean delay = 5.00135   delay std = 0.450973
+OK E=-432 acc=0.242 snaps=10
+ib=5/10 beta=5  is=5/31 sdel=0.6 ... norm*
+mean delay = 5.01181   delay std = 0.600637
+OK E=-375 acc=0.252 snaps=10
+ib=5/10 beta=5  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.01336   delay std = 0.750104
+OK E=-382 acc=0.238 snaps=10
+ib=5/10 beta=5  is=7/31 sdel=0.9 ... norm*
+mean delay = 5.00964   delay std = 0.899235
+OK E=-363 acc=0.256 snaps=10
+ib=5/10 beta=5  is=8/31 sdel=1.05 ... norm*
+mean delay = 5.0101   delay std = 1.04991
+OK E=-374 acc=0.254 snaps=10
+ib=5/10 beta=5  is=9/31 sdel=1.2 ... mean delay = 5.01458   delay std = 1.23342
+OK E=-372 acc=0.237 snaps=10
+ib=5/10 beta=5  is=10/31 sdel=1.35 ... mean delay = 5.02089   delay std = 1.37637
+OK E=-366 acc=0.244 snaps=10
+ib=5/10 beta=5  is=11/31 sdel=1.5 ... mean delay = 5.0248   delay std = 1.51699
+OK E=-378 acc=0.238 snaps=10
+ib=5/10 beta=5  is=12/31 sdel=1.65 ... mean delay = 5.01514   delay std = 1.66553
+OK E=-340 acc=0.231 snaps=10
+ib=5/10 beta=5  is=13/31 sdel=1.8 ... mean delay = 5.01421   delay std = 1.8068
+OK E=-365 acc=0.235 snaps=10
+ib=5/10 beta=5  is=14/31 sdel=1.95 ... mean delay = 5.02507   delay std = 1.94913
+OK E=-371 acc=0.253 snaps=10
+ib=5/10 beta=5  is=15/31 sdel=2.1 ... mean delay = 4.97075   delay std = 2.10652
+OK E=-355 acc=0.248 snaps=10
+ib=5/10 beta=5  is=16/31 sdel=2.25 ... mean delay = 5.00791   delay std = 2.2679
+OK E=-372 acc=0.249 snaps=10
+ib=5/10 beta=5  is=17/31 sdel=2.4 ... mean delay = 5.01648   delay std = 2.39858
+OK E=-359 acc=0.246 snaps=10
+ib=5/10 beta=5  is=18/31 sdel=2.55 ... mean delay = 4.95845   delay std = 2.52409
+OK E=-360 acc=0.251 snaps=10
+ib=5/10 beta=5  is=19/31 sdel=2.7 ... mean delay = 5.07279   delay std = 2.70573
+OK E=-369 acc=0.251 snaps=10
+ib=5/10 beta=5  is=20/31 sdel=2.85 ... mean delay = 5.02831   delay std = 2.83998
+OK E=-369 acc=0.246 snaps=10
+ib=5/10 beta=5  is=21/31 sdel=3 ... mean delay = 5.01287   delay std = 2.95596
+OK E=-352 acc=0.249 snaps=10
+ib=5/10 beta=5  is=22/31 sdel=3.15 ... mean delay = 5.0277   delay std = 3.14651
+OK E=-366 acc=0.250 snaps=10
+ib=5/10 beta=5  is=23/31 sdel=3.3 ... mean delay = 4.99045   delay std = 3.22277
+OK E=-335 acc=0.252 snaps=10
+ib=5/10 beta=5  is=24/31 sdel=3.45 ... mean delay = 5.01063   delay std = 3.48723
+OK E=-362 acc=0.244 snaps=10
+ib=5/10 beta=5  is=25/31 sdel=3.6 ... mean delay = 5.04718   delay std = 3.70323
+OK E=-355 acc=0.245 snaps=10
+ib=5/10 beta=5  is=26/31 sdel=3.75 ... mean delay = 5.0639   delay std = 3.71109
+OK E=-351 acc=0.249 snaps=10
+ib=5/10 beta=5  is=27/31 sdel=3.9 ... mean delay = 5.04142   delay std = 3.91792
+OK E=-353 acc=0.241 snaps=10
+ib=5/10 beta=5  is=28/31 sdel=4.05 ... mean delay = 5.15842   delay std = 4.15621
+OK E=-386 acc=0.265 snaps=10
+ib=5/10 beta=5  is=29/31 sdel=4.2 ... mean delay = 5.01547   delay std = 4.144
+OK E=-356 acc=0.258 snaps=10
+ib=5/10 beta=5  is=30/31 sdel=4.35 ... mean delay = 5.11671   delay std = 4.43272
+OK E=-379 acc=0.239 snaps=10
+ib=5/10 beta=5  is=31/31 sdel=4.5 ... mean delay = 4.99966   delay std = 4.44439
+OK E=-365 acc=0.236 snaps=10
+--- finished beta index 5/10 ---
+--- ENTER ib=6/10 beta=5.2 ---
+ib=6/10 beta=5.2  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-430 acc=0.264 snaps=10
+ib=6/10 beta=5.2  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99935   delay std = 0.149045
+OK E=-406 acc=0.253 snaps=10
+ib=6/10 beta=5.2  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.00732   delay std = 0.299761
+OK E=-391 acc=0.247 snaps=10
+ib=6/10 beta=5.2  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99055   delay std = 0.449299
+OK E=-387 acc=0.238 snaps=10
+ib=6/10 beta=5.2  is=5/31 sdel=0.6 ... norm*
+mean delay = 4.99663   delay std = 0.599799
+OK E=-400 acc=0.238 snaps=10
+ib=6/10 beta=5.2  is=6/31 sdel=0.75 ... norm*
+mean delay = 4.99932   delay std = 0.750439
+OK E=-388 acc=0.249 snaps=10
+ib=6/10 beta=5.2  is=7/31 sdel=0.9 ... norm*
+mean delay = 5.02869   delay std = 0.900255
+OK E=-375 acc=0.248 snaps=10
+ib=6/10 beta=5.2  is=8/31 sdel=1.05 ... mean delay = 4.98529   delay std = 1.06406
+OK E=-360 acc=0.242 snaps=10
+ib=6/10 beta=5.2  is=9/31 sdel=1.2 ... mean delay = 4.9866   delay std = 1.22661
+OK E=-353 acc=0.258 snaps=10
+ib=6/10 beta=5.2  is=10/31 sdel=1.35 ... mean delay = 5.00477   delay std = 1.36415
+OK E=-355 acc=0.242 snaps=10
+ib=6/10 beta=5.2  is=11/31 sdel=1.5 ... mean delay = 4.9732   delay std = 1.55351
+OK E=-376 acc=0.237 snaps=10
+ib=6/10 beta=5.2  is=12/31 sdel=1.65 ... mean delay = 5.01224   delay std = 1.64553
+OK E=-343 acc=0.249 snaps=10
+ib=6/10 beta=5.2  is=13/31 sdel=1.8 ... mean delay = 4.92688   delay std = 1.78401
+OK E=-372 acc=0.252 snaps=10
+ib=6/10 beta=5.2  is=14/31 sdel=1.95 ... mean delay = 5.06296   delay std = 1.95445
+OK E=-350 acc=0.230 snaps=10
+ib=6/10 beta=5.2  is=15/31 sdel=2.1 ... mean delay = 5.0459   delay std = 2.11021
+OK E=-363 acc=0.245 snaps=10
+ib=6/10 beta=5.2  is=16/31 sdel=2.25 ... mean delay = 4.98063   delay std = 2.28389
+OK E=-361 acc=0.251 snaps=10
+ib=6/10 beta=5.2  is=17/31 sdel=2.4 ... mean delay = 5.06473   delay std = 2.40254
+OK E=-347 acc=0.242 snaps=10
+ib=6/10 beta=5.2  is=18/31 sdel=2.55 ... mean delay = 4.97954   delay std = 2.57278
+OK E=-345 acc=0.233 snaps=10
+ib=6/10 beta=5.2  is=19/31 sdel=2.7 ... mean delay = 4.98946   delay std = 2.73546
+OK E=-338 acc=0.232 snaps=10
+ib=6/10 beta=5.2  is=20/31 sdel=2.85 ... mean delay = 5.05791   delay std = 2.86192
+OK E=-384 acc=0.224 snaps=10
+ib=6/10 beta=5.2  is=21/31 sdel=3 ... mean delay = 5.10486   delay std = 2.97738
+OK E=-346 acc=0.233 snaps=10
+ib=6/10 beta=5.2  is=22/31 sdel=3.15 ... mean delay = 4.99666   delay std = 3.17187
+OK E=-364 acc=0.241 snaps=10
+ib=6/10 beta=5.2  is=23/31 sdel=3.3 ... mean delay = 4.96897   delay std = 3.31008
+OK E=-349 acc=0.240 snaps=10
+ib=6/10 beta=5.2  is=24/31 sdel=3.45 ... mean delay = 5.05326   delay std = 3.42735
+OK E=-389 acc=0.236 snaps=10
+ib=6/10 beta=5.2  is=25/31 sdel=3.6 ... mean delay = 4.96919   delay std = 3.496
+OK E=-380 acc=0.231 snaps=10
+ib=6/10 beta=5.2  is=26/31 sdel=3.75 ... mean delay = 5.08878   delay std = 3.78262
+OK E=-367 acc=0.230 snaps=10
+ib=6/10 beta=5.2  is=27/31 sdel=3.9 ... mean delay = 4.95785   delay std = 3.90966
+OK E=-358 acc=0.236 snaps=10
+ib=6/10 beta=5.2  is=28/31 sdel=4.05 ... mean delay = 5.10605   delay std = 4.10363
+OK E=-367 acc=0.236 snaps=10
+ib=6/10 beta=5.2  is=29/31 sdel=4.2 ... mean delay = 5.06603   delay std = 4.24887
+OK E=-362 acc=0.234 snaps=10
+ib=6/10 beta=5.2  is=30/31 sdel=4.35 ... mean delay = 5.0459   delay std = 4.45044
+OK E=-369 acc=0.233 snaps=10
+ib=6/10 beta=5.2  is=31/31 sdel=4.5 ... mean delay = 4.97219   delay std = 4.34107
+OK E=-348 acc=0.232 snaps=10
+--- finished beta index 6/10 ---
+--- ENTER ib=7/10 beta=5.4 ---
+ib=7/10 beta=5.4  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-388 acc=0.246 snaps=10
+ib=7/10 beta=5.4  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99632   delay std = 0.149723
+OK E=-384 acc=0.242 snaps=10
+ib=7/10 beta=5.4  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.00235   delay std = 0.300539
+OK E=-399 acc=0.242 snaps=10
+ib=7/10 beta=5.4  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99899   delay std = 0.449249
+OK E=-386 acc=0.235 snaps=10
+ib=7/10 beta=5.4  is=5/31 sdel=0.6 ... norm*
+mean delay = 4.99902   delay std = 0.600818
+OK E=-373 acc=0.227 snaps=10
+ib=7/10 beta=5.4  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.00539   delay std = 0.750289
+OK E=-390 acc=0.241 snaps=10
+ib=7/10 beta=5.4  is=7/31 sdel=0.9 ... norm*
+mean delay = 5.01608   delay std = 0.89913
+OK E=-389 acc=0.237 snaps=10
+ib=7/10 beta=5.4  is=8/31 sdel=1.05 ... norm*
+mean delay = 4.98764   delay std = 1.04998
+OK E=-383 acc=0.227 snaps=10
+ib=7/10 beta=5.4  is=9/31 sdel=1.2 ... mean delay = 4.98361   delay std = 1.23842
+OK E=-367 acc=0.244 snaps=10
+ib=7/10 beta=5.4  is=10/31 sdel=1.35 ... mean delay = 4.97739   delay std = 1.37752
+OK E=-355 acc=0.236 snaps=10
+ib=7/10 beta=5.4  is=11/31 sdel=1.5 ... mean delay = 5.00645   delay std = 1.52618
+OK E=-361 acc=0.236 snaps=10
+ib=7/10 beta=5.4  is=12/31 sdel=1.65 ... mean delay = 5.0375   delay std = 1.68684
+OK E=-369 acc=0.242 snaps=10
+ib=7/10 beta=5.4  is=13/31 sdel=1.8 ... mean delay = 4.94465   delay std = 1.85269
+OK E=-355 acc=0.219 snaps=10
+ib=7/10 beta=5.4  is=14/31 sdel=1.95 ... mean delay = 5.05571   delay std = 1.94169
+OK E=-383 acc=0.239 snaps=10
+ib=7/10 beta=5.4  is=15/31 sdel=2.1 ... mean delay = 5.04811   delay std = 2.11808
+OK E=-356 acc=0.236 snaps=10
+ib=7/10 beta=5.4  is=16/31 sdel=2.25 ... mean delay = 4.99464   delay std = 2.26072
+OK E=-366 acc=0.217 snaps=10
+ib=7/10 beta=5.4  is=17/31 sdel=2.4 ... mean delay = 5.01235   delay std = 2.43682
+OK E=-361 acc=0.231 snaps=10
+ib=7/10 beta=5.4  is=18/31 sdel=2.55 ... mean delay = 5.00725   delay std = 2.56721
+OK E=-374 acc=0.237 snaps=10
+ib=7/10 beta=5.4  is=19/31 sdel=2.7 ... mean delay = 4.93395   delay std = 2.67018
+OK E=-372 acc=0.231 snaps=10
+ib=7/10 beta=5.4  is=20/31 sdel=2.85 ... mean delay = 5.00546   delay std = 2.92258
+OK E=-358 acc=0.243 snaps=10
+ib=7/10 beta=5.4  is=21/31 sdel=3 ... mean delay = 5.09254   delay std = 3.06545
+OK E=-370 acc=0.237 snaps=10
+ib=7/10 beta=5.4  is=22/31 sdel=3.15 ... mean delay = 5.12118   delay std = 3.20378
+OK E=-342 acc=0.249 snaps=10
+ib=7/10 beta=5.4  is=23/31 sdel=3.3 ... mean delay = 5.01043   delay std = 3.30589
+OK E=-368 acc=0.224 snaps=10
+ib=7/10 beta=5.4  is=24/31 sdel=3.45 ... mean delay = 5.04903   delay std = 3.44723
+OK E=-359 acc=0.230 snaps=10
+ib=7/10 beta=5.4  is=25/31 sdel=3.6 ... mean delay = 5.0881   delay std = 3.65932
+OK E=-356 acc=0.232 snaps=10
+ib=7/10 beta=5.4  is=26/31 sdel=3.75 ... mean delay = 4.93145   delay std = 3.66581
+OK E=-357 acc=0.237 snaps=10
+ib=7/10 beta=5.4  is=27/31 sdel=3.9 ... mean delay = 5.15997   delay std = 3.96919
+OK E=-365 acc=0.234 snaps=10
+ib=7/10 beta=5.4  is=28/31 sdel=4.05 ... mean delay = 4.96369   delay std = 3.89662
+OK E=-370 acc=0.252 snaps=10
+ib=7/10 beta=5.4  is=29/31 sdel=4.2 ... mean delay = 4.96359   delay std = 4.18751
+OK E=-340 acc=0.220 snaps=10
+ib=7/10 beta=5.4  is=30/31 sdel=4.35 ... mean delay = 5.13384   delay std = 4.46162
+OK E=-363 acc=0.248 snaps=10
+ib=7/10 beta=5.4  is=31/31 sdel=4.5 ... mean delay = 4.91157   delay std = 4.29648
+OK E=-351 acc=0.229 snaps=10
+--- finished beta index 7/10 ---
+--- ENTER ib=8/10 beta=5.6 ---
+ib=8/10 beta=5.6  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-403 acc=0.237 snaps=10
+ib=8/10 beta=5.6  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99588   delay std = 0.150518
+OK E=-388 acc=0.245 snaps=10
+ib=8/10 beta=5.6  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.002   delay std = 0.300093
+OK E=-383 acc=0.241 snaps=10
+ib=8/10 beta=5.6  is=4/31 sdel=0.45 ... norm*
+mean delay = 5.00465   delay std = 0.450376
+OK E=-394 acc=0.250 snaps=10
+ib=8/10 beta=5.6  is=5/31 sdel=0.6 ... norm*
+mean delay = 5.02234   delay std = 0.60087
+OK E=-364 acc=0.237 snaps=10
+ib=8/10 beta=5.6  is=6/31 sdel=0.75 ... norm*
+mean delay = 5.00336   delay std = 0.749992
+OK E=-360 acc=0.237 snaps=10
+ib=8/10 beta=5.6  is=7/31 sdel=0.9 ... norm*
+mean delay = 5.00602   delay std = 0.900741
+OK E=-402 acc=0.244 snaps=10
+ib=8/10 beta=5.6  is=8/31 sdel=1.05 ... mean delay = 5.02213   delay std = 1.09442
+OK E=-364 acc=0.230 snaps=10
+ib=8/10 beta=5.6  is=9/31 sdel=1.2 ... norm*
+mean delay = 5.02847   delay std = 1.19919
+OK E=-375 acc=0.231 snaps=10
+ib=8/10 beta=5.6  is=10/31 sdel=1.35 ... mean delay = 4.989   delay std = 1.39602
+OK E=-406 acc=0.227 snaps=10
+ib=8/10 beta=5.6  is=11/31 sdel=1.5 ... mean delay = 4.9482   delay std = 1.53974
+OK E=-355 acc=0.226 snaps=10
+ib=8/10 beta=5.6  is=12/31 sdel=1.65 ... mean delay = 5.01388   delay std = 1.6593
+OK E=-375 acc=0.259 snaps=10
+ib=8/10 beta=5.6  is=13/31 sdel=1.8 ... mean delay = 5.00233   delay std = 1.80988
+OK E=-357 acc=0.220 snaps=10
+ib=8/10 beta=5.6  is=14/31 sdel=1.95 ... mean delay = 5.05765   delay std = 1.98999
+OK E=-359 acc=0.235 snaps=10
+ib=8/10 beta=5.6  is=15/31 sdel=2.1 ... mean delay = 4.97288   delay std = 2.08239
+OK E=-354 acc=0.228 snaps=10
+ib=8/10 beta=5.6  is=16/31 sdel=2.25 ... mean delay = 5.02358   delay std = 2.24519
+OK E=-358 acc=0.242 snaps=10
+ib=8/10 beta=5.6  is=17/31 sdel=2.4 ... mean delay = 5.04527   delay std = 2.39274
+OK E=-393 acc=0.252 snaps=10
+ib=8/10 beta=5.6  is=18/31 sdel=2.55 ... mean delay = 4.92315   delay std = 2.57173
+OK E=-388 acc=0.227 snaps=10
+ib=8/10 beta=5.6  is=19/31 sdel=2.7 ... mean delay = 5.01247   delay std = 2.69082
+OK E=-392 acc=0.247 snaps=10
+ib=8/10 beta=5.6  is=20/31 sdel=2.85 ... mean delay = 4.96881   delay std = 2.86421
+OK E=-347 acc=0.233 snaps=10
+ib=8/10 beta=5.6  is=21/31 sdel=3 ... mean delay = 5.05031   delay std = 3.03153
+OK E=-376 acc=0.230 snaps=10
+ib=8/10 beta=5.6  is=22/31 sdel=3.15 ... mean delay = 4.97114   delay std = 3.11973
+OK E=-370 acc=0.237 snaps=10
+ib=8/10 beta=5.6  is=23/31 sdel=3.3 ... mean delay = 5.08645   delay std = 3.27996
+OK E=-359 acc=0.231 snaps=10
+ib=8/10 beta=5.6  is=24/31 sdel=3.45 ... mean delay = 4.94988   delay std = 3.44371
+OK E=-350 acc=0.228 snaps=10
+ib=8/10 beta=5.6  is=25/31 sdel=3.6 ... mean delay = 4.95698   delay std = 3.53467
+OK E=-368 acc=0.223 snaps=10
+ib=8/10 beta=5.6  is=26/31 sdel=3.75 ... mean delay = 4.90209   delay std = 3.63143
+OK E=-347 acc=0.228 snaps=10
+ib=8/10 beta=5.6  is=27/31 sdel=3.9 ... mean delay = 4.91482   delay std = 3.82221
+OK E=-387 acc=0.229 snaps=10
+ib=8/10 beta=5.6  is=28/31 sdel=4.05 ... mean delay = 5.01843   delay std = 4.09868
+OK E=-382 acc=0.221 snaps=10
+ib=8/10 beta=5.6  is=29/31 sdel=4.2 ... mean delay = 5.04371   delay std = 4.23202
+OK E=-342 acc=0.235 snaps=10
+ib=8/10 beta=5.6  is=30/31 sdel=4.35 ... mean delay = 5.16368   delay std = 4.38997
+OK E=-349 acc=0.222 snaps=10
+ib=8/10 beta=5.6  is=31/31 sdel=4.5 ... mean delay = 4.98456   delay std = 4.32647
+OK E=-335 acc=0.230 snaps=10
+--- finished beta index 8/10 ---
+--- ENTER ib=9/10 beta=5.8 ---
+ib=9/10 beta=5.8  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-388 acc=0.258 snaps=10
+ib=9/10 beta=5.8  is=2/31 sdel=0.15 ... norm*
+mean delay = 5.00334   delay std = 0.150643
+OK E=-379 acc=0.222 snaps=10
+ib=9/10 beta=5.8  is=3/31 sdel=0.3 ... norm*
+mean delay = 4.99571   delay std = 0.299033
+OK E=-381 acc=0.232 snaps=10
+ib=9/10 beta=5.8  is=4/31 sdel=0.45 ... norm*
+mean delay = 5.00515   delay std = 0.450474
+OK E=-420 acc=0.239 snaps=10
+ib=9/10 beta=5.8  is=5/31 sdel=0.6 ... norm*
+mean delay = 4.98912   delay std = 0.599221
+OK E=-356 acc=0.239 snaps=10
+ib=9/10 beta=5.8  is=6/31 sdel=0.75 ... norm*
+mean delay = 4.98835   delay std = 0.750052
+OK E=-386 acc=0.231 snaps=10
+ib=9/10 beta=5.8  is=7/31 sdel=0.9 ... norm*
+mean delay = 4.97707   delay std = 0.899399
+OK E=-327 acc=0.232 snaps=10
+ib=9/10 beta=5.8  is=8/31 sdel=1.05 ... mean delay = 4.98576   delay std = 1.0713
+OK E=-359 acc=0.224 snaps=10
+ib=9/10 beta=5.8  is=9/31 sdel=1.2 ... mean delay = 5.00531   delay std = 1.23365
+OK E=-362 acc=0.239 snaps=10
+ib=9/10 beta=5.8  is=10/31 sdel=1.35 ... mean delay = 5.003   delay std = 1.39727
+OK E=-375 acc=0.210 snaps=10
+ib=9/10 beta=5.8  is=11/31 sdel=1.5 ... mean delay = 5.02614   delay std = 1.53897
+OK E=-381 acc=0.229 snaps=10
+ib=9/10 beta=5.8  is=12/31 sdel=1.65 ... mean delay = 4.97495   delay std = 1.68379
+OK E=-348 acc=0.232 snaps=10
+ib=9/10 beta=5.8  is=13/31 sdel=1.8 ... mean delay = 4.96558   delay std = 1.8076
+OK E=-385 acc=0.221 snaps=10
+ib=9/10 beta=5.8  is=14/31 sdel=1.95 ... mean delay = 4.97568   delay std = 1.96056
+OK E=-352 acc=0.223 snaps=10
+ib=9/10 beta=5.8  is=15/31 sdel=2.1 ... mean delay = 5.07331   delay std = 2.12514
+OK E=-382 acc=0.230 snaps=10
+ib=9/10 beta=5.8  is=16/31 sdel=2.25 ... mean delay = 5.03419   delay std = 2.22468
+OK E=-345 acc=0.227 snaps=10
+ib=9/10 beta=5.8  is=17/31 sdel=2.4 ... mean delay = 4.94164   delay std = 2.37191
+OK E=-361 acc=0.243 snaps=10
+ib=9/10 beta=5.8  is=18/31 sdel=2.55 ... mean delay = 5.00615   delay std = 2.57938
+OK E=-343 acc=0.231 snaps=10
+ib=9/10 beta=5.8  is=19/31 sdel=2.7 ... mean delay = 4.88056   delay std = 2.63894
+OK E=-337 acc=0.208 snaps=10
+ib=9/10 beta=5.8  is=20/31 sdel=2.85 ... mean delay = 5.00477   delay std = 2.81659
+OK E=-367 acc=0.233 snaps=10
+ib=9/10 beta=5.8  is=21/31 sdel=3 ... mean delay = 4.96183   delay std = 2.95827
+OK E=-350 acc=0.232 snaps=10
+ib=9/10 beta=5.8  is=22/31 sdel=3.15 ... mean delay = 4.97751   delay std = 3.1178
+OK E=-361 acc=0.229 snaps=10
+ib=9/10 beta=5.8  is=23/31 sdel=3.3 ... mean delay = 5.05514   delay std = 3.33661
+OK E=-341 acc=0.220 snaps=10
+ib=9/10 beta=5.8  is=24/31 sdel=3.45 ... mean delay = 5.03099   delay std = 3.43921
+OK E=-357 acc=0.225 snaps=10
+ib=9/10 beta=5.8  is=25/31 sdel=3.6 ... mean delay = 4.96017   delay std = 3.54974
+OK E=-344 acc=0.217 snaps=10
+ib=9/10 beta=5.8  is=26/31 sdel=3.75 ... mean delay = 5.04818   delay std = 3.73603
+OK E=-404 acc=0.231 snaps=10
+ib=9/10 beta=5.8  is=27/31 sdel=3.9 ... mean delay = 5.01252   delay std = 3.91921
+OK E=-361 acc=0.210 snaps=10
+ib=9/10 beta=5.8  is=28/31 sdel=4.05 ... mean delay = 4.95018   delay std = 4.02547
+OK E=-358 acc=0.218 snaps=10
+ib=9/10 beta=5.8  is=29/31 sdel=4.2 ... mean delay = 4.94522   delay std = 4.10614
+OK E=-345 acc=0.219 snaps=10
+ib=9/10 beta=5.8  is=30/31 sdel=4.35 ... mean delay = 4.93159   delay std = 4.24119
+OK E=-370 acc=0.217 snaps=10
+ib=9/10 beta=5.8  is=31/31 sdel=4.5 ... mean delay = 5.07254   delay std = 4.29423
+OK E=-383 acc=0.237 snaps=10
+--- finished beta index 9/10 ---
+--- ENTER ib=10/10 beta=6 ---
+ib=10/10 beta=6  is=1/31 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-390 acc=0.241 snaps=10
+ib=10/10 beta=6  is=2/31 sdel=0.15 ... norm*
+mean delay = 4.99516   delay std = 0.150938
+OK E=-431 acc=0.238 snaps=10
+ib=10/10 beta=6  is=3/31 sdel=0.3 ... norm*
+mean delay = 5.00303   delay std = 0.300069
+OK E=-369 acc=0.232 snaps=10
+ib=10/10 beta=6  is=4/31 sdel=0.45 ... norm*
+mean delay = 4.99701   delay std = 0.449871
+OK E=-419 acc=0.246 snaps=10
+ib=10/10 beta=6  is=5/31 sdel=0.6 ... norm*
+mean delay = 5.01785   delay std = 0.599396
+OK E=-345 acc=0.233 snaps=10
+ib=10/10 beta=6  is=6/31 sdel=0.75 ... norm*
+mean delay = 4.98594   delay std = 0.749582
+OK E=-364 acc=0.225 snaps=10
+ib=10/10 beta=6  is=7/31 sdel=0.9 ... norm*
+mean delay = 5.01412   delay std = 0.899117
+OK E=-374 acc=0.229 snaps=10
+ib=10/10 beta=6  is=8/31 sdel=1.05 ... norm*
+mean delay = 5.00881   delay std = 1.0499
+OK E=-352 acc=0.216 snaps=10
+ib=10/10 beta=6  is=9/31 sdel=1.2 ... mean delay = 5.01368   delay std = 1.22671
+OK E=-365 acc=0.226 snaps=10
+ib=10/10 beta=6  is=10/31 sdel=1.35 ... mean delay = 4.9734   delay std = 1.35968
+OK E=-390 acc=0.243 snaps=10
+ib=10/10 beta=6  is=11/31 sdel=1.5 ... mean delay = 4.9664   delay std = 1.52575
+OK E=-353 acc=0.244 snaps=10
+ib=10/10 beta=6  is=12/31 sdel=1.65 ... mean delay = 4.97886   delay std = 1.67488
+OK E=-374 acc=0.235 snaps=10
+ib=10/10 beta=6  is=13/31 sdel=1.8 ... mean delay = 4.97825   delay std = 1.81032
+OK E=-356 acc=0.228 snaps=10
+ib=10/10 beta=6  is=14/31 sdel=1.95 ... mean delay = 5.02646   delay std = 1.96103
+OK E=-357 acc=0.231 snaps=10
+ib=10/10 beta=6  is=15/31 sdel=2.1 ... mean delay = 5.07475   delay std = 2.09824
+OK E=-361 acc=0.213 snaps=10
+ib=10/10 beta=6  is=16/31 sdel=2.25 ... mean delay = 4.99003   delay std = 2.24924
+OK E=-364 acc=0.235 snaps=10
+ib=10/10 beta=6  is=17/31 sdel=2.4 ... mean delay = 5.01542   delay std = 2.4668
+OK E=-329 acc=0.217 snaps=10
+ib=10/10 beta=6  is=18/31 sdel=2.55 ... mean delay = 5.03359   delay std = 2.5333
+OK E=-360 acc=0.223 snaps=10
+ib=10/10 beta=6  is=19/31 sdel=2.7 ... mean delay = 4.94899   delay std = 2.69249
+OK E=-356 acc=0.234 snaps=10
+ib=10/10 beta=6  is=20/31 sdel=2.85 ... mean delay = 4.95819   delay std = 2.78195
+OK E=-353 acc=0.226 snaps=10
+ib=10/10 beta=6  is=21/31 sdel=3 ... mean delay = 5.07307   delay std = 3.03248
+OK E=-364 acc=0.232 snaps=10
+ib=10/10 beta=6  is=22/31 sdel=3.15 ... mean delay = 4.95711   delay std = 3.13942
+OK E=-351 acc=0.231 snaps=10
+ib=10/10 beta=6  is=23/31 sdel=3.3 ... mean delay = 5.03811   delay std = 3.30239
+OK E=-390 acc=0.219 snaps=10
+ib=10/10 beta=6  is=24/31 sdel=3.45 ... mean delay = 4.98826   delay std = 3.34362
+OK E=-359 acc=0.230 snaps=10
+ib=10/10 beta=6  is=25/31 sdel=3.6 ... mean delay = 5.002   delay std = 3.58684
+OK E=-375 acc=0.224 snaps=10
+ib=10/10 beta=6  is=26/31 sdel=3.75 ... mean delay = 5.09058   delay std = 3.78958
+OK E=-340 acc=0.226 snaps=10
+ib=10/10 beta=6  is=27/31 sdel=3.9 ... mean delay = 5.02073   delay std = 3.87468
+OK E=-360 acc=0.220 snaps=10
+ib=10/10 beta=6  is=28/31 sdel=4.05 ... mean delay = 5.17995   delay std = 4.15524
+OK E=-355 acc=0.221 snaps=10
+ib=10/10 beta=6  is=29/31 sdel=4.2 ... mean delay = 5.01232   delay std = 4.22808
+OK E=-384 acc=0.220 snaps=10
+ib=10/10 beta=6  is=30/31 sdel=4.35 ... mean delay = 5.005   delay std = 4.4756
+OK E=-366 acc=0.232 snaps=10
+ib=10/10 beta=6  is=31/31 sdel=4.5 ... EXCEPTION
+--- finished beta index 10/10 ---
+ABOUT_TO_SAVE: ok_sum=308/310 E_finite=308/310 x_nnz=71405/155000
+DIAG: spike_count_ok=308/310 refractory_ok=308/310 accept_rate finite=308/310
+SNAP_DIAG: total_snaps=3080 max_snaps_per_cell=10
+E_final finite min/max (if any): -440 / -322
+WROTE /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_4p2_6/Gphase30x_betalin4p2to6_h3_Efinal.txt
+ABOUT_TO_SAVE_MAT /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_4p2_6/Gphase30x_betalin4p2to6_h3_phase.mat
+SAVE_DONE /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_4p2_6/Gphase30x_betalin4p2to6_h3_phase.mat
+
+End: Thu Jul 23 06:55:35 CEST 2026
+=== END ===

@@ -1,0 +1,10 @@
+EXCEPTION ib=2 is=31 beta=4.4 sdel=4.5 | MATLAB:UndefinedFunction | Undefined function 'exprnd' for input arguments of type 'double'.
+  at initialize_network (line 43)
+  at run_phase_diagram (line 143)
+  at run_phase_beta_4p2_6 (line 8)
+  at run (line 112)
+EXCEPTION ib=10 is=31 beta=6 sdel=4.5 | MATLAB:UndefinedFunction | Undefined function 'exprnd' for input arguments of type 'double'.
+  at initialize_network (line 43)
+  at run_phase_diagram (line 143)
+  at run_phase_beta_4p2_6 (line 8)
+  at run (line 112)

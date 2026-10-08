@@ -1,0 +1,2 @@
+# ib is beta sdel E_final accept_rate ok exit_code
+1 1 4.4000000000000004 4.5 -341 0.26552999999999999 1 0

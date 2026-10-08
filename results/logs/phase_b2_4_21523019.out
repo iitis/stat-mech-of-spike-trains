@@ -1,0 +1,87 @@
+=== START ===
+JobID: 21523019
+Node:  gt1247
+Start: Wed Sep  2 16:45:24 CEST 2026
+CWD:   /users/kdm/jpy/SimMPI_test/spike-train-mc
+Script: scripts/current/run_phase_beta_2_4.m
+
+run_phase_diagram POST_AUDIT_2026-07
+/users/kdm/jpy/SimMPI_test/spike-train-mc
+SAVE_MODE = RAM_THEN_SAVE_V73
+START 02-Sep-2026 16:45:32 pwd=/users/kdm/jpy/SimMPI_test/spike-train-mc out_file=/users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_0_6_sparse_1M/Gphase_sparse_sdel0to4p5_beta2to4_h3_1M_phase.mat nb=4 ns=6 T=500 SLURM_JOB_ID=21523019
+GRID: beta_min=2.5 beta_max=4 beta_step=0.5 nb=4
+SNAPSHOT: do_snap=1 n_snap=100000 max_snaps=10
+--- ENTER ib=1/4 beta=2.5 ---
+ib=1/4 beta=2.5  is=1/6 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+xstats(min=0 max=10 mean=1) OK E=-347 acc=0.415 snaps=10
+ib=1/4 beta=2.5  is=2/6 sdel=0.9 ... norm*
+mean delay = 5.01399   delay std = 0.899591
+xstats(min=0 max=7 mean=1) OK E=-328 acc=0.416 snaps=10
+ib=1/4 beta=2.5  is=3/6 sdel=1.8 ... mean delay = 5.02616   delay std = 1.80469
+OK E=-335 acc=0.418 snaps=10
+ib=1/4 beta=2.5  is=4/6 sdel=2.7 ... mean delay = 5.01776   delay std = 2.69717
+OK E=-326 acc=0.415 snaps=10
+ib=1/4 beta=2.5  is=5/6 sdel=3.6 ... mean delay = 4.96924   delay std = 3.61978
+OK E=-337 acc=0.410 snaps=10
+ib=1/4 beta=2.5  is=6/6 sdel=4.5 ... mean delay = 4.98712   delay std = 4.30837
+OK E=-324 acc=0.413 snaps=10
+--- finished beta index 1/4 ---
+--- ENTER ib=2/4 beta=3 ---
+ib=2/4 beta=3  is=1/6 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-395 acc=0.350 snaps=10
+ib=2/4 beta=3  is=2/6 sdel=0.9 ... norm*
+mean delay = 4.98713   delay std = 0.900826
+OK E=-404 acc=0.347 snaps=10
+ib=2/4 beta=3  is=3/6 sdel=1.8 ... mean delay = 4.95531   delay std = 1.81895
+OK E=-403 acc=0.335 snaps=10
+ib=2/4 beta=3  is=4/6 sdel=2.7 ... mean delay = 5.05459   delay std = 2.73498
+OK E=-365 acc=0.335 snaps=10
+ib=2/4 beta=3  is=5/6 sdel=3.6 ... mean delay = 4.97223   delay std = 3.60065
+OK E=-381 acc=0.330 snaps=10
+ib=2/4 beta=3  is=6/6 sdel=4.5 ... mean delay = 4.99535   delay std = 4.5161
+OK E=-377 acc=0.335 snaps=10
+--- finished beta index 2/4 ---
+--- ENTER ib=3/4 beta=3.5 ---
+ib=3/4 beta=3.5  is=1/6 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-402 acc=0.295 snaps=10
+ib=3/4 beta=3.5  is=2/6 sdel=0.9 ... norm*
+mean delay = 5.03089   delay std = 0.90028
+OK E=-395 acc=0.295 snaps=10
+ib=3/4 beta=3.5  is=3/6 sdel=1.8 ... mean delay = 4.99223   delay std = 1.83401
+OK E=-417 acc=0.294 snaps=10
+ib=3/4 beta=3.5  is=4/6 sdel=2.7 ... mean delay = 5.05157   delay std = 2.67371
+OK E=-395 acc=0.293 snaps=10
+ib=3/4 beta=3.5  is=5/6 sdel=3.6 ... mean delay = 5.0007   delay std = 3.60423
+OK E=-407 acc=0.300 snaps=10
+ib=3/4 beta=3.5  is=6/6 sdel=4.5 ... mean delay = 5.0017   delay std = 4.49643
+OK E=-412 acc=0.296 snaps=10
+--- finished beta index 3/4 ---
+--- ENTER ib=4/4 beta=4 ---
+ib=4/4 beta=4  is=1/6 sdel=0 ... norm*
+mean delay = 5   delay std = 0
+OK E=-427 acc=0.244 snaps=10
+ib=4/4 beta=4  is=2/6 sdel=0.9 ... norm*
+mean delay = 5.02453   delay std = 0.900754
+OK E=-443 acc=0.268 snaps=10
+ib=4/4 beta=4  is=3/6 sdel=1.8 ... mean delay = 4.99485   delay std = 1.81967
+OK E=-433 acc=0.253 snaps=10
+ib=4/4 beta=4  is=4/6 sdel=2.7 ... mean delay = 4.97609   delay std = 2.67811
+OK E=-416 acc=0.246 snaps=10
+ib=4/4 beta=4  is=5/6 sdel=3.6 ... mean delay = 4.9516   delay std = 3.59976
+OK E=-415 acc=0.251 snaps=10
+ib=4/4 beta=4  is=6/6 sdel=4.5 ... mean delay = 4.85124   delay std = 4.19518
+OK E=-437 acc=0.265 snaps=10
+--- finished beta index 4/4 ---
+ABOUT_TO_SAVE: ok_sum=24/24 E_finite=24/24 x_nnz=4414/12000
+DIAG: spike_count_ok=24/24 refractory_ok=24/24 accept_rate finite=24/24
+SNAP_DIAG: total_snaps=240 max_snaps_per_cell=10
+E_final finite min/max (if any): -443 / -324
+WROTE /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_0_6_sparse_1M/Gphase_sparse_sdel0to4p5_beta2to4_h3_1M_Efinal.txt
+ABOUT_TO_SAVE_MAT /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_0_6_sparse_1M/Gphase_sparse_sdel0to4p5_beta2to4_h3_1M_phase.mat
+SAVE_DONE /users/kdm/jpy/SimMPI_test/spike-train-mc/results/raw/beta_0_6_sparse_1M/Gphase_sparse_sdel0to4p5_beta2to4_h3_1M_phase.mat
+
+End: Fri Sep  4 13:44:24 CEST 2026
+=== END ===

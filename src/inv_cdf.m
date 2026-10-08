@@ -1,0 +1,6 @@
+function x = inv_cdf(y, a, b)
+    c = quad(@(t) fun0(t, a, b), 0, 1e10);
+    x = (2.*sqrt(b).*erfinv( ...
+            (2.*sqrt(b).*c.*y)./(exp(a.^2./(4.*b)).*sqrt(pi)) + erf(a./(2.*sqrt(b))) ...
+        ) - a) ./ (2.*b);
+end
