@@ -1,0 +1,37 @@
+﻿# OS/editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# MATLAB autosaves / generated
+*.asv
+*.m~
+*.mex*
+*.slxc
+
+# Cluster / logs
+*.log
+*.err
+*.out
+slurm-*.out
+
+# Local scratch
+scratch/
+tmp/
+temp/
+
+# Local file lists
+FILELIST.txt
+
+# Pre-audit / compilation leftovers
+archive_pre_audit/
+scripts/archive_pre_audit/
+scripts/legacy_compiled/
+
+# Optional raw cache/output folders
+results/cache/
+results/tmp/

@@ -1,0 +1,12 @@
+﻿cff-version: 1.2.0
+title: "Monte Carlo sampler for statistical mechanics of spike trains"
+message: "If you use this code, please cite the associated article and this repository."
+type: software
+authors:
+  - family-names: Pyrzowski
+    given-names: Jan
+  - family-names: Markiewicz
+    given-names: Marcin
+repository-code: "https://github.com/iitis/stat-mech-of-spike-trains"
+date-released: 2026-10-08
+license: GPL-3.0-only
