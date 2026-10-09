@@ -31,9 +31,9 @@ SOFT_TIMEOUT_S=$((72*3600 - 10*60))
 
 if command -v timeout >/dev/null 2>&1; then
   timeout --preserve-status --signal=TERM --kill-after=30s "${SOFT_TIMEOUT_S}" \
-    matlab -nodisplay -nosplash -batch "run('scripts/current/run_phase_beta_2p2_4.m')"
+    matlab -nodisplay -nosplash -batch "run('scripts/current/run_main_beta_2p2_4.m')"
 else
-  matlab -nodisplay -nosplash -batch "run('scripts/current/run_phase_beta_2p2_4.m')"
+  matlab -nodisplay -nosplash -batch "run('scripts/current/run_main_beta_2p2_4.m')"
 fi
 
 echo

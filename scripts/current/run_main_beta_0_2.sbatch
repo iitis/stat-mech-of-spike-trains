@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#SBATCH --job-name=phase_b4_6
+#SBATCH --job-name=phase_b0_2
 #SBATCH --partition=batch
 #SBATCH --time=3-00:00:00
 #SBATCH --nodes=1
@@ -31,9 +31,9 @@ SOFT_TIMEOUT_S=$((72*3600 - 10*60))
 
 if command -v timeout >/dev/null 2>&1; then
   timeout --preserve-status --signal=TERM --kill-after=30s "${SOFT_TIMEOUT_S}" \
-    matlab -nodisplay -nosplash -batch "run('scripts/current/run_phase_beta_4p2_6.m')"
+    matlab -nodisplay -nosplash -batch "run('scripts/current/run_main_beta_0_2.m')"
 else
-  matlab -nodisplay -nosplash -batch "run('scripts/current/run_phase_beta_4p2_6.m')"
+  matlab -nodisplay -nosplash -batch "run('scripts/current/run_main_beta_0_2.m')"
 fi
 
 echo
